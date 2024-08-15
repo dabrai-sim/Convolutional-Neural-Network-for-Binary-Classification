@@ -8,7 +8,6 @@ This project implements a Convolutional Neural Network (CNN) using TensorFlow an
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Training and Evaluation](#training-and-evaluation)
-- [Requirements](#requirements)
 
 ## Dataset
 - The dataset used consists of two folders: `train` and `test`. Both folders contain two subfolders, `cats` and `dogs`, holding the respective images.
@@ -26,7 +25,5 @@ This project implements a Convolutional Neural Network (CNN) using TensorFlow an
 - The model is compiled with the `Adam` optimizer, `hinge` loss, and `accuracy` as the evaluation metric.
 - The model is trained for 15 epochs with a batch size of 32, and both training and validation loss/accuracy are plotted.
 
-## Requirements
-To run this project, install the required dependencies using:
 
 
