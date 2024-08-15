@@ -13,6 +13,7 @@ This project implements a Convolutional Neural Network (CNN) using TensorFlow an
 ## Dataset
 - The dataset used consists of two folders: `train` and `test`. Both folders contain two subfolders, `cats` and `dogs`, holding the respective images.
 - The images are resized to 64x64 pixels before feeding them into the model.
+- The dataset can be found using the following link: https://www.kaggle.com/c/dogs-vs-cats/data
 
 ## Model Architecture
 1. Convolutional Layer: The model consists of two convolutional layers, each followed by a max-pooling layer.
